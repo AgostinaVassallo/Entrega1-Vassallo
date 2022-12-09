@@ -4,5 +4,13 @@ from django.http import HttpResponse
 # Create your views de la app 
 
 def inicio(request):  #primer controlador(view)
-    return HttpResponse("inicio")
+    return render (request,"appbts/inicio.html")
 
+def bts(request):
+    return render (request,"appbts/bts.html")
+
+def coreasur(request):
+    return render (request,"appbts/coreasur.html")
+
+def army(request):
+    return render (request,"appbts/army.html")
