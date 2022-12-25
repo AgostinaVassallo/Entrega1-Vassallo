@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import *
+
 
 # Create your views de la app 
 
@@ -14,3 +16,6 @@ def coreasur(request):
 
 def army(request):
     return render (request,"appbts/army.html")
+
+def contactoFormulario(request):
+    return render (request, "appbts/contactoFormulario.html")

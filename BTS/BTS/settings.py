@@ -56,7 +56,7 @@ ROOT_URLCONF = 'BTS.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["C:/Users/cgcol/Desktop/Agos/entorno/entrega/Entrega1-Vassallo/BTS/appbts/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

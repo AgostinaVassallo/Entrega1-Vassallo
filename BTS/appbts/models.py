@@ -6,6 +6,8 @@ class Bts(models.Model):
     integrantes=models.CharField(max_length=50)
     edad=models.IntegerField() #averiguar si va un booleano
     carrera_musical=models.CharField(max_length=50)
+    def __str__(self):
+        return ("BTS")
 
 class Coreasur(models.Model):
     historia=models.CharField(max_length=50)
